@@ -1,0 +1,376 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open-Sans', sans-serif;
+}
+
+/* ########### LANDING PAGE ########### */
+.landingpage {
+	position: relative;
+ 	background: url('../images/landingbg.jpg')
+             no-repeat bottom center / cover;
+         
+}
+
+#jumbo-land {
+	height: 100vh;
+	padding-top: 20%;
+	background-color: #333; /*off black*/
+	border-radius: 0; /*removes jumbotron's rounder corners*/
+}
+#jumbo-land .container {
+	background: rgba(0, 0, 0,0.86);
+	padding: 30px;
+}
+
+#jumbo-land img{
+	display: block;
+	margin: 0 auto;
+	width: 15em;
+}
+.jumbotron h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #f2f2f2; /*off white*/
+}
+.jumbotron h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #f2f2f2; /*off white*/
+}
+
+#jumbo-land {
+	height: 100vh;
+	padding-top: 20%;
+	background-color: #333; /*off black*/
+	border-radius: 0; /*removes jumbotron's rounded corners*/
+}
+
+.jumbotron hr {
+	background-color: #ffbf00;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 5px;
+}
+
+
+.btn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* ########### END OF LANDING PAGE ########### */
+
+/*#navbar {
+	background-color: indianred;
+}*/
+
+/* ######### GLOBAL STYLES ########## */
+h1, h2, h3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	letter-spacing: 5px;
+}
+
+.navbar img {
+	width: 50px;
+}
+.navbar-custom {
+    background-color: #333;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom #feast {
+	color: green;
+}
+
+.btn {
+	border-radius: 40px;
+}
+
+	/*subscription*/
+
+.subscription {
+	color: #fff;
+	background-color: #333;
+	border-bottom: 1px solid lightgrey;
+
+}
+.subscription h2 {
+	color: #fff;
+}
+
+	/*social media icons*/
+
+.social a {
+  font-size: 1em;
+  padding: 1rem;
+}
+	@media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .social a {
+        font-size: 48px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .social a {
+        font-size: 48px; } }
+    @media only screen and (max-width: 767px) {
+      .social a {
+        font-size: 20px; } }
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+.fa-instagram {
+  color: #517fa4;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
+
+	/*footer*/
+footer {
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	overflow-x: hidden;
+}
+footer img{
+	width: 95px;
+}
+/* ######## END OF GLOBAL STYLES ######## */
+
+
+/* ######## HOME PAGE ###########*/
+
+#home-landing {
+	background: url("../images/homebg.jpg") no-repeat bottom center / cover;
+	background-color: #333;
+	color: #fff;
+	padding: 20%;
+}
+
+#home-landing button {
+	display: table; margin: 0 auto;
+}
+
+.page-title {
+	background-color: #000;
+}
+
+/* Cta Area */
+.cta-area {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 675px;
+  /*background-image: url(../images/glutenfree.jpg);*/
+  background: url("../images/workshop.jpg") no-repeat bottom center / cover;
+  background-attachment: fixed; 
+}
+.cta-area .cta-content h2 {
+font-size: 72px;
+margin-bottom: 20px;
+color: #ffffff;
+font-weight: 400; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .cta-area .cta-content h2 {
+        font-size: 48px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .cta-area .cta-content h2 {
+        font-size: 48px; } }
+    @media only screen and (max-width: 767px) {
+      .cta-area .cta-content h2 {
+        font-size: 30px; } }
+.cta-area .cta-content p {
+color: #ffffff;
+margin-bottom: 100px;
+font-size: 16px; }
+    @media only screen and (max-width: 767px) {
+      .cta-area .cta-content p {
+        margin-bottom: 50px; } }
+
+  /*HELP GUIDE*/
+#help {
+	background: url("../images/help.JPG") no-repeat bottom center / cover;
+	color: #fff;
+	padding: 20%;
+}
+
+#help h1, h2{
+	color: #000;
+}
+#help button {
+	display: table; margin: 0 auto;
+}
+/* ####### END OF HOME PAGE ###########*/
+
+
+/* ####### ABOUT PAGE ####### */
+#jumbotron-about {
+	background: url("../images/meetauthors.jpg") no-repeat bottom center / cover;
+	background-color: #333;
+	height: 90vh;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#landing-about {
+	color: #f2f2f2;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	font-family: hinde, sans-serif;
+}
+
+.author {
+	float: right;
+	width: 200px;
+}
+#mission {
+	height: 100%;
+	background-color: #fff; /*off black*/
+	color: #333; /*off white*/
+}
+
+#mission .card-body {
+	border-left: 2px solid blue;
+}
+
+#mission h2 {
+	color: #000;
+}
+
+#vision {
+	height: 100%;
+	background-color: #333;
+	color: #fff;
+}
+
+#book {
+	background-image: url("../images/buyourbookbg.jpg");
+}
+
+.about-tags {
+	font-weight: bold;
+	font-family: hinde, sans-serif;	
+}
+/* ####### END OF ABOUT PAGE ####### */
+
+/* ###### START OF PROJECTS STYLING* ##### */
+
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+
+.column a {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+.column a:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+.hover01 a img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 a:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+/* ###### END OF PROJECTS STYLING* ##### */
+
+
+/* ###### START OF GUIDE STYLING* ##### */
+.howto-container {
+	width: 700px;
+	margin: 0 auto;
+}
+#howto button {
+	display: table; margin: 0 auto;}
+
+/* ####### CONTACT PAGE ####### */
+form{
+	margin: 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+#message:focus {
+	border-color: rgba(205, 92, 92, 0.8);
+  	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(205, 92, 92, 0.6);
+  	outline: 0 none;
+}
+
+.icontact b{
+	border-bottom: 2px solid indianred;
+}
+
+#googlemap {
+	width: 100%;
+	display: block;
+	border: none;
+	height: 70vh;
+	border-radius: 10px;
+}
+
+
+#gmap {
+	width: 100%;
+	display: block;
+	border: none;
+	height: 70vh;
+	border-radius: 10px;
+}
+/* ####### END OF CONTACT PAGE####### */
+
+
+
+
+
+
+
